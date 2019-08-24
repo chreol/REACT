@@ -1,3 +1,7 @@
+// ---------- //
+// COMPONENST //
+// ---------- //
+
 const List = ({ id, description, deadlineDate }) => {
   let todoList = [
     {
@@ -31,5 +35,14 @@ const List = ({ id, description, deadlineDate }) => {
   );
 };
 
+// -------- //
+// MAIN APP //
+// -------- //
+
+const App = () => <List />;
+
+// ---------- //
+// RENDER DOM //
+// ---------- //
 
 ReactDOM.render(<App />, document.getElementById("root"));
